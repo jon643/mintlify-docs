@@ -1,0 +1,76 @@
+{
+  "projectType": "saas",
+  "projectName": "Neutralyze",
+  "projectDescription": "Neutralyze® makes over-the-counter topical acne treatments combining 2% salicylic acid (BHA) and 1% mandelic acid (AHA), available as exfoliating pads, a renewal moisturizer, and an acne face wash.",
+  "theme": "almond",
+  "primaryColor": "#1be49c",
+  "lightColor": "#0c8c5c",
+  "darkColor": "#0c0c0c",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Overview",
+        "pages": [
+          "index",
+          "faq"
+        ]
+      },
+      {
+        "group": "Products",
+        "pages": [
+          "products/exfoliating-pads",
+          "products/renewal-complex",
+          "products/face-wash"
+        ]
+      },
+      {
+        "group": "Usage Guides",
+        "pages": [
+          "guides/routine-order",
+          "guides/best-for-teens",
+          "guides/best-for-sensitive-skin",
+          "guides/best-for-body-acne",
+          "guides/dark-spots",
+          "guides/purging-vs-breakout"
+        ]
+      },
+      {
+        "group": "Comparisons",
+        "pages": [
+          "comparisons/salicylic-vs-mandelic",
+          "comparisons/vs-stridex",
+          "comparisons/vs-cerave-sa",
+          "comparisons/vs-panoxyl"
+        ]
+      },
+      {
+        "group": "Policies & Support",
+        "pages": [
+          "reference/ingredients",
+          "reference/shipping",
+          "reference/returns-guarantee",
+          "reference/subscriptions",
+          "reference/contact"
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Dual-acid formula: 2% salicylic acid (BHA) + 1% mandelic acid (AHA)",
+    "Three-product system: Exfoliating Pads, Renewal Complex, and Acne Face Wash",
+    "Fragrance-free, sulfate-free, paraben-free, non-comedogenic, and cruelty-free",
+    "Made in the USA in an FDA-registered, cGMP-certified facility",
+    "60-day 100% money-back guarantee",
+    "15% savings with auto-renew subscription",
+    "Suitable for all skin types and tones, teens and adults",
+    "Effective for face, chest, back, and body acne"
+  ],
+  "publicApiSurface": [
+    "Exfoliating Pads (100 dual-textured pads, $26)",
+    "Renewal Complex (3.4 oz time-released moisturizer, $20)",
+    "Acne Face Wash (5 oz cleanser, $18)",
+    "Auto-renew subscription (15% savings, cancel/pause/skip anytime)",
+    "60-day money-back guarantee policy",
+    "Free US standard shipping on orders over $30"
+  ]
+}

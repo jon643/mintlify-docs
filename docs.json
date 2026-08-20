@@ -1,72 +1,83 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "theme": "almond",
+  "name": "Neutralyze",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#1be49c",
+    "light": "#0c8c5c",
+    "dark": "#0c0c0c"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://media.brand.dev/483ee27f-08fb-4d32-842d-86b4c40f9fb4.png",
+  "logo": {
+    "light": "https://media.brand.dev/07fcb57b-76a5-49f6-abdb-740da69c791f.svg",
+    "dark": "https://media.brand.dev/07fcb57b-76a5-49f6-abdb-740da69c791f.svg"
+  },
   "navigation": {
-    "pages": [
+    "groups": [
       {
-        "group": "Getting Started",
+        "group": "Overview",
         "pages": [
           "index",
-          "quickstart"
+          "faq"
+        ]
+      },
+      {
+        "group": "Products",
+        "pages": [
+          "products/exfoliating-pads",
+          "products/renewal-complex",
+          "products/face-wash"
+        ]
+      },
+      {
+        "group": "Usage Guides",
+        "pages": [
+          "guides/routine-order",
+          "guides/best-for-teens",
+          "guides/best-for-sensitive-skin",
+          "guides/best-for-body-acne",
+          "guides/dark-spots",
+          "guides/purging-vs-breakout"
+        ]
+      },
+      {
+        "group": "Comparisons",
+        "pages": [
+          "comparisons/salicylic-vs-mandelic",
+          "comparisons/vs-stridex",
+          "comparisons/vs-cerave-sa",
+          "comparisons/vs-panoxyl"
+        ]
+      },
+      {
+        "group": "Policies & Support",
+        "pages": [
+          "reference/ingredients",
+          "reference/shipping",
+          "reference/returns-guarantee",
+          "reference/subscriptions",
+          "reference/contact"
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    ]
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:customerservice@neutralyze.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Shop Now",
+      "href": "https://www.neutralyze.com"
     }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://www.neutralyze.com"
     }
-  }
+  },
+  "description": "Official product documentation for Neutralyze acne treatment products: specifications, ingredients, usage guides, comparisons, and store policies."
 }
